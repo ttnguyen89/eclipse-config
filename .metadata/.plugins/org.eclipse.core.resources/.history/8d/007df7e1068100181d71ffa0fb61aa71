@@ -1,0 +1,6 @@
+package com.virtualpariprogrammers.motd;
+
+public interface MessageOfTheDayService {
+
+	void String getMessage();
+}

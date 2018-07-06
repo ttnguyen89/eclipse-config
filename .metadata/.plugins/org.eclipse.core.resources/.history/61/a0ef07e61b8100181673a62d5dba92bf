@@ -1,0 +1,12 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"  
+            "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+	<bean id="motdService"
+		class="com.virutalpairprogrammers.motd.MessageOfTheDayBasicImpl">
+		<property name="message" value="Well Hello There!"/>
+		
+	</bean>
+	
+</beans>
